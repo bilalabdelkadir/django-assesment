@@ -1,7 +1,12 @@
+import { Button } from '@mantine/core';
 import React from 'react';
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Button>Hello Mantine</Button>
+    </div>
+  );
 };
 
 export default App;
